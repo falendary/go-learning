@@ -12,9 +12,14 @@ The goal is to understand the language, concurrency model, standard library, and
 go-learning/
 │
 ├── basics/
-├── structs/
-├── slices/
-├── errors/
+├── errors/            - how to work with errors and how to define them
+├── generics/
+├── http/              - how to start basic http server and serve routes
+├── interfaces/
+├── jsons/             - how to work with JSON (marshal/unmarshal, encode/decode)
+├── slices/            - how to use Arrays, Lists, Slices
+├── structs/           - how to use Dicts / Classes
+├── tests/             - how to write tests
 └── README.md
 ```
 

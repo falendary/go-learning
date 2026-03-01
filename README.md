@@ -11,9 +11,10 @@ The goal is to understand the language, concurrency model, standard library, and
 ```
 go-learning/
 │
-├── basic/
-├── struct/
-├── slice/
+├── basics/
+├── structs/
+├── slices/
+├── errors/
 └── README.md
 ```
 

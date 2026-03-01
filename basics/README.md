@@ -5,4 +5,4 @@ Basic Types, Syntax, Keywords
 
 # How to run
 
-```go run ./basic```
+```go run ./basics```

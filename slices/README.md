@@ -11,4 +11,4 @@ Everything about Slices
 
 # How to run
 
-```go run ./slice```
+```go run ./slices```

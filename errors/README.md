@@ -8,4 +8,9 @@ Everything about Errors
 
 # How to run
 
-```go run ./errors```
+```
+go run ./errors/basic
+go run ./errors/is
+go run ./errors/panic
+go run ./errors/wrap
+```

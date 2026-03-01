@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
+	"github.com/falendary/go-learning/errors/shared"
 )
 
 func main() {
@@ -27,7 +28,7 @@ func main() {
 
 		fmt.Println("\ngetUserEmail error", err)
 
-		var ve ValidationError
+		var ve shared.ValidationError
 
 		if errors.As(err, &ve) {
 			fmt.Println("-> validation details, field=%s, message=%s", ve.Field, ve.Msg)
@@ -41,19 +42,10 @@ func main() {
 
 var ErrNotFound = errors.New("not found")
 
-type ValidationError struct {
-	Field string
-	Msg   string
-}
-
-func (e ValidationError) Error() string {
-	return fmt.Sprintf("validation error: %s: %s", e.Field, e.Msg)
-}
-
 func getUserEmail(id string) (string, error) {
 
 	if id == "" {
-		return "", ValidationError{Field: "id", Msg: "must not be empty"}
+		return "", shared.ValidationError{Field: "id", Msg: "must not be empty"}
 	}
 
 	if id != "42" {

@@ -1,0 +1,12 @@
+package shared
+
+import "fmt"
+
+type ValidationError struct {
+	Field string
+	Msg   string
+}
+
+func (e ValidationError) Error() string {
+	return fmt.Sprintf("validation error: %s: %s", e.Field, e.Msg)
+}

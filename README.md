@@ -18,6 +18,7 @@ go-learning/
 ├── http/              - how to start basic http server and serve routes
 ├── http-client/       - how to make http requests (server-to-server)
 ├── interfaces/
+├── io/                - io reader/writer examples
 ├── jsons/             - how to work with JSON (marshal/unmarshal, encode/decode)
 ├── slices/            - how to use Arrays, Lists, Slices
 ├── structs/           - how to use Dicts / Classes

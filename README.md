@@ -13,8 +13,10 @@ go-learning/
 │
 ├── basics/
 ├── errors/            - how to work with errors and how to define them
+├── files/             - how to work with files (create, delete, read line by line)
 ├── generics/
 ├── http/              - how to start basic http server and serve routes
+├── http-client/       - how to make http requests (server-to-server)
 ├── interfaces/
 ├── jsons/             - how to work with JSON (marshal/unmarshal, encode/decode)
 ├── slices/            - how to use Arrays, Lists, Slices
